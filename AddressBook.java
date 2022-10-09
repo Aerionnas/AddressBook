@@ -70,5 +70,6 @@ public class AddressBook extends JPanel{
   frame.setSize(600,350);
   frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
   frame.setVisible(true);
+  frame.setResizable(false);
   }
 }
